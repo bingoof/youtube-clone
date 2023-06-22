@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+
+      .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 400px;
+        align-items: center;
+      }
+      
+      p {
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      
+      .info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .name {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .follow-button {
+        width: 70px;
+        padding: 8px;
+        font-size: 16px;
+        border-style: none;
+        background-color: rgb(64, 153, 255);
+        color: white;
+        font-weight: bold;
+        border-radius: 4px;
+      }
+
+      .img {
+        width: 60px;
+      }
+
+      .pfp {
+        border-style: solid;
+        border-width: 1px;
+        border-color: grey;
+        border-radius: 100px;
+        width: 100%
+      }
+
+      .lines {
+        margin-left: 16px;
+      }
+
+      .nickname,.popularity {
+        color: grey;
+      }
+
+      .nickname {
+        font-size: 20px;
+      }
+      
+      .popularity {
+        font-size: 16px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 400px;
+        row-gap: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="grid">
+      <div class="flex">
+        <div class="info">
+          <div class="img">
+            <img class="pfp" src="images/hamster.webp">
+          </div>
+          <div class="lines">
+            <p class="name">Harry</p>
+            <p class="nickname">the hamster</p>
+            <p class="popularity">Popular</p>
+          </div>
+        </div>
+        <div>
+          <button class="follow-button">Follow</button>
+        </div>    
+      </div>
+
+      <div class="flex">
+        <div class="info">
+          <div class="img">
+            <img class="pfp" src="images/hamster.webp">
+          </div>
+          <div class="lines">
+            <p class="name">Harry</p>
+            <p class="nickname">the hamster</p>
+            <p class="popularity">Popular</p>
+          </div>
+        </div>
+        <div>
+          <button class="follow-button">Follow</button>
+        </div>    
+      </div>
+
+      <div class="flex">
+        <div class="info">
+          <div class="img">
+            <img class="pfp" src="images/hamster.webp">
+          </div>
+          <div class="lines">
+            <p class="name">Harry</p>
+            <p class="nickname">the hamster</p>
+            <p class="popularity">Popular</p>
+          </div>
+        </div>
+        <div>
+          <button class="follow-button">Follow</button>
+        </div>    
+      </div>
+    </div>
+  </body>
+</html>

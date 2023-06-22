@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Flex</title>
+    <style>
+      p {
+        margin: 0;
+        font-family: Arial;
+        line-height: 20px;
+      }
+
+      .tweet-box {
+        display: flex;
+      }
+
+      .pfp {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-right: 8px;
+      }
+
+      .tweet {
+        width: 350px;
+      }
+
+      .handle {
+        color: grey;
+      }
+
+      .question {
+        margin-top: 4px;
+      }
+
+      .attachment {
+        display: flex;
+        margin-top: 16px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(229, 229, 229);
+        border-radius: 15px;
+      }
+
+      .grey-box {
+        width: 100px;
+        background-color: rgb(200, 200, 200);
+        border-radius: 14px;
+      }
+
+      .video-desc {
+        width: 240px;
+        margin-left: -12px;
+        padding-top: 14px;
+        padding-left: 10px;
+        padding-bottom: 14px;
+        background-color: white;
+      }
+
+      .webpage {
+        color: grey;
+        margin-bottom: 4px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="tweet-box">
+      <img class="pfp" src="images/anime.webp">
+      <div class="tweet">
+        <p>
+          <strong>
+            supersimple.dev 
+          </strong>
+          <span class="handle">
+            &commat;SuperSimpleDev
+          </span>
+        </p>
+        <p class="question">
+          What is backend web development? A complete overview. New video is up!
+        </p>
+        <div class="attachment">
+          <div class="grey-box"></div>
+          <div class="video-desc">
+            <p class="webpage">
+              youtube.com
+            </p>
+            <p>
+              Backend web development &ndash; a complete overview &lpar;2021&rpar;
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

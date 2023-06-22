@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shirt!</title>
+    <style>
+      .shirt-container {
+        display: inline-block;
+        position: relative;
+        border: solid;
+        border-color: rgb(208, 207, 207);
+      }
+
+      .image {
+        width: 400px;
+      }
+
+      .cart-overlay {
+        position: absolute;
+        background-color: rgba(255, 255, 255,0.8);
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .sale {
+        position: absolute;
+        top: 8px;
+        right: 0px;
+        font-family: Arial;
+        color: white;
+        background-color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .cart {
+        font-family: Arial;
+        border-style: solid;
+        background-color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shirt-container">
+      <img class="image" src="images/tshirt.jpeg">
+      <div class="sale">
+        20% OFF
+      </div>
+      <div class="cart-overlay">
+        <div class="cart">
+          Add to Cart
+        </div>
+      </div>
+      
+
+    </div>
+  </body>
+</html>

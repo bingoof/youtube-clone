@@ -1,0 +1,46 @@
+p {
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.stats {
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 16px;
+}
+
+.channel {
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 16px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #606060;
+  width: 280px;
+}
+
+.banner {
+  background-color: rgb(255, 46, 46);
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  font-size: 14px;
+}
+
+.shop-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

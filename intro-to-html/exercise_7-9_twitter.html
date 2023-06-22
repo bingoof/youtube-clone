@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-bottom: 0;
+        margin-top: 4px;
+        margin-left: 8px;
+      }
+
+      .pfp {
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        object-position: center;
+        vertical-align: middle;
+      }
+
+      .box {
+        vertical-align: middle;
+        border-style: none;
+        font-size: 18px;
+        width: 300px;
+        margin-left: 4px;
+        height: 35px;
+      }
+
+      .tweet-button {
+        background-color: rgb(0, 176, 239);
+        height: 33px;
+        border: none;
+        width: 70px;
+        color: white;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 15px;
+        transition: box-shadow 0.15s opacity 0.15s;
+        vertical-align: middle;
+
+      }
+
+      .tweet:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .tweet:active {
+        opacity: 0.5;
+      }
+
+      .tweet-box {
+        border: none;
+        width: 450px;
+        border-radius: 10px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .profiles {
+        margin-top: 10px;
+        display: inline-block;
+        border: none;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+        width: 180px;
+        vertical-align: top;
+        margin-left: 10px;
+      }
+
+      .mutual {
+        font-size: 14px;
+        color: grey;
+      }
+
+      .friend-button {
+        background-color: rgb(0, 176, 239);
+        height: 20px;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-top: 16px;
+        margin-left: 8px;
+        margin-bottom: 8px;
+      }
+
+      .name {
+        font-weight: bold;
+      }
+
+      .images {
+        width: 180px;
+        height: 186px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="tweet-box">
+      <img class="pfp" src="images/hamster.webp">
+      <input class="box" type="text" placeholder="What's happening?">
+      <button class="tweet-button">Tweet</button>
+    </div>
+    
+    <div class="profiles">
+      <img class="images" src="images/anime.webp">
+      <p class="name">Mai</p>
+      <p class="mutual">0 mutual friends</p>
+      <button class="friend-button">Add Friend</button>
+    </div>
+
+    <div class="profiles">
+      <img class="images" src="images/crying.jpeg">
+      <p class="name">Bob</p>
+      <p class="mutual">3 following</p>
+      <button class="friend-button">Add Friend</button>
+    </div>
+
+    <div class="profiles">
+      <img class="images" src="images/speed.webp">
+      <p class="name">IShowSpeed</p>
+      <p class="mutual">15M followers</p>
+      <button class="friend-button">Add Friend</button>
+    </div>
+  </body>
+</html>
+
+
+
